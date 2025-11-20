@@ -1,0 +1,39 @@
+<Form FormIdentifier="Vessel Delivery Report (PACB)" CompanyCode="PACB" CompanyName="Pacific Basin" VesselCode="BBOC" SubmittedDate="0001-01-01T00:00:00" Status="Submitted" ApprovedDate="" LatestResubmissionDate="0001-01-01T00:00:00" ImoNumber="9712151">
+  <VesselName>BBG OCEAN</VesselName>
+  <VoyageNo>5</VoyageNo>
+  <Masters_Name></Masters_Name>
+  <Location>N</Location>
+  <Port></Port>
+  <Latitude>17 57' 36" N</Latitude>
+  <Longitude>72 46' 12" E</Longitude>
+  <ReportTime>2023-11-14T10:00:00+05:30</ReportTime>
+  <Upcoming>
+    <UpcomingPort PortName="MUMBAI" DistToGo="50" ProjSpeed="3.125" ETA="2023-11-15T02:00:00+05:30" Via="" UnCode="INBOM" />
+  </Upcoming>
+  <Last_Discharge_Port_Nameprior_delivery_to_PB>KOCHI (INDIA)</Last_Discharge_Port_Nameprior_delivery_to_PB>
+  <Distance_from_last_port>572</Distance_from_last_port>
+  <Last_discharge_port_departure_date__Time_UTC>2023-11-12T04:00:00+06:30</Last_discharge_port_departure_date__Time_UTC>
+  <Remarks>test remarks</Remarks>
+  <Delivery_Bunkers>
+    <Delivery_BunkersRow>
+      <Fuel_Type>IFO</Fuel_Type>
+      <Fuel_Consumption_from_the_last_discharged_port>60</Fuel_Consumption_from_the_last_discharged_port>
+      <Delivery_ROB>720</Delivery_ROB>
+    </Delivery_BunkersRow>
+    <Delivery_BunkersRow>
+      <Fuel_Type>LSIFO</Fuel_Type>
+      <Fuel_Consumption_from_the_last_discharged_port></Fuel_Consumption_from_the_last_discharged_port>
+      <Delivery_ROB></Delivery_ROB>
+    </Delivery_BunkersRow>
+    <Delivery_BunkersRow>
+      <Fuel_Type>MGO</Fuel_Type>
+      <Fuel_Consumption_from_the_last_discharged_port></Fuel_Consumption_from_the_last_discharged_port>
+      <Delivery_ROB></Delivery_ROB>
+    </Delivery_BunkersRow>
+    <Delivery_BunkersRow>
+      <Fuel_Type>LSMGO</Fuel_Type>
+      <Fuel_Consumption_from_the_last_discharged_port>2</Fuel_Consumption_from_the_last_discharged_port>
+      <Delivery_ROB>358</Delivery_ROB>
+    </Delivery_BunkersRow>
+  </Delivery_Bunkers>
+</Form>

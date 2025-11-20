@@ -1,0 +1,15 @@
+<Form FormIdentifier="Pacific Basin All Fast ROB's (PACB)" CompanyCode="PACB" CompanyName="Pacific Basin" VesselCode="KMLO" SubmittedDate="0001-01-01T00:00:00" Status="Submitted" ApprovedDate="" LatestResubmissionDate="0001-01-01T00:00:00" ImoNumber="9811957" UnCode="JPSMZ">
+  <VesselName>KM LONDON</VesselName>
+  <ReportTime>2023-08-18T23:22:00+09:00</ReportTime>
+  <VoyageNo>4</VoyageNo>
+  <Port>SHIMIZU</Port>
+  <Please_complete_below_table_for_ROBs_at_time_of_All_Fast></Please_complete_below_table_for_ROBs_at_time_of_All_Fast>
+  <All_Fast_ROBs>
+    <All_Fast_ROBsRow>
+      <All_Fast__IFO_MT></All_Fast__IFO_MT>
+      <All_Fast__LSIFO_MT>776.3</All_Fast__LSIFO_MT>
+      <All_Fast__LSMGO_MT>160.33</All_Fast__LSMGO_MT>
+      <All_Fast__MGO_MT></All_Fast__MGO_MT>
+    </All_Fast_ROBsRow>
+  </All_Fast_ROBs>
+</Form>

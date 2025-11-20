@@ -1,0 +1,104 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="Form">
+<xs:complexType>
+<xs:all>
+<xs:element name="VesselName" type="String" minOccurs="0"/>
+<xs:element name="VoyageNo" type="Integer" minOccurs="0"/>
+<xs:element name="Port" type="String" minOccurs="1"/>
+<xs:element name="ETD" type="DateTime" minOccurs="0"/>
+<xs:element name="BunkeringCompleted" type="DateTime" minOccurs="1"/>
+<xs:element name="BunkerVendor" type="String" minOccurs="0"/>
+<xs:element name="Remarks" type="String" minOccurs="0"/>
+<xs:element name="On_Shore_vs_Off_Shore_Delivery" type="String" minOccurs="0"/>
+<xs:element name="Off_Shore__EOSP" type="DateTime" minOccurs="0"/>
+<xs:element name="Off_Shore__Barge_Alongside" type="DateTime" minOccurs="0"/>
+<xs:element name="Off_Shore__Pumping_Complete" type="DateTime" minOccurs="0"/>
+<xs:element name="Off_Shore__COSP" type="DateTime" minOccurs="0"/>
+<xs:element name="In_Port__EOSP" type="DateTime" minOccurs="0"/>
+<xs:element name="In_Port__Anchor_Dropped" type="DateTime" minOccurs="0"/>
+<xs:element name="In_Port__Barge_Alongside" type="DateTime" minOccurs="0"/>
+<xs:element name="In_Port__Pumping_Completed" type="DateTime" minOccurs="0"/>
+<xs:element name="In_Port__COSP" type="DateTime" minOccurs="0"/>
+<xs:element name="Fuels">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FuelsRow" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:all>
+<xs:element name="FuelType" type="String" minOccurs="0"/>
+<xs:element name="QtyLifted" type="Decimal" minOccurs="0"/>
+<xs:element name="Fuel_Viscosity" type="String" minOccurs="0"/>
+</xs:all>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element type="__Properties__" name="__Properties__" minOccurs="0"/>
+</xs:all>
+<xs:attribute type="xs:string" name="FormIdentifier" use="required" fixed="PB Bunkering Form (PACB)"/>
+<xs:attribute type="xs:string" name="CompanyCode" use="required"/>
+<xs:attribute type="xs:string" name="CompanyName"/>
+<xs:attribute type="xs:string" name="VesselCode" use="required"/>
+</xs:complexType>
+</xs:element>
+<xs:simpleType name="String">
+<xs:restriction base="xs:string"/>
+</xs:simpleType>
+<xs:simpleType name="Integer">
+<xs:union>
+<xs:simpleType>
+<xs:restriction base="xs:integer"/>
+</xs:simpleType>
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:length value="0"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:union>
+</xs:simpleType>
+<xs:simpleType name="Decimal">
+<xs:union>
+<xs:simpleType>
+<xs:restriction base="xs:decimal"/>
+</xs:simpleType>
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:length value="0"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:union>
+</xs:simpleType>
+<xs:simpleType name="DateTime">
+<xs:union>
+<xs:simpleType>
+<xs:restriction base="xs:dateTime"/>
+</xs:simpleType>
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:length value="0"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:union>
+</xs:simpleType>
+<xs:complexType name="__Properties__">
+<xs:sequence>
+<xs:element minOccurs="0" maxOccurs="unbounded" name="Property">
+<xs:complexType>
+<xs:attribute name="Key">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:enumeration value="mastersFirstName"/>
+<xs:enumeration value="mastersLastName"/>
+<xs:enumeration value="chiefEngrFirstName"/>
+<xs:enumeration value="chiefEngrLastName"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:attribute>
+<xs:attribute name="Value" type="xs:string"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,43 @@
+{
+    "imo": "9853022",
+    "vesselName": "CL EPIC",
+    "vesselCode": "CLEP",
+    "formIdentifier": "PB Bunkering Form v00.01.03",
+    "reportName": "PB Bunkering Form",
+    "version": "v00.01.03",
+    "refId": "590adbd3-f18b-ce2e-a083-3a1da891933f",
+    "clientIds": "PBBunkeringFormPacificBasinForm",
+    "principalId": "11cd3a27-07a4-4cab-bdc2-9c7657efac2e",
+    "isBarge": "false",
+    "clientName": "PacificBasin",
+    "voyagenumber": "100",
+    "port": "PUERTO CORTES",
+    "portetd": "2025-11-01T12:00:00+00:00",
+    "reporttime": "2025-11-01T02:00:00+00:00",
+    "Supplier": "Skandinaviska Enskilda Banken AB (publ.)",
+    "mainremarks": "Testing bunkering form submit from local form ",
+    "inportvsoffshoredelivery": "Off Shore",
+    "eosp": "2025-11-02T12:00:00+00:00",
+    "bargealongside": "2025-11-02T12:00:00+00:00",
+    "pumpingcompleted": "2025-11-02T12:00:00+00:00",
+    "cosp": "2025-11-02T12:00:00+00:00",
+    "firstname": "Mridhul",
+    "lastname": "local",
+    "bunkerrecived": [
+        {
+            "pbfueltype": "LSIFO",
+            "quantitylifted": "100.000",
+            "fuelviscosity": "Less than 80"
+        },
+        {
+            "pbfueltype": "LSMGO",
+            "quantitylifted": "200.000",
+            "fuelviscosity": "Greater than 80"
+        },
+        {
+            "pbfueltype": "MGO",
+            "quantitylifted": "300.000",
+            "fuelviscosity": "Greater than 80"
+        }
+    ]
+}

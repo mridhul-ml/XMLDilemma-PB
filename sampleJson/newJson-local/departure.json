@@ -1,0 +1,200 @@
+{
+    "imo": "9853022",
+    "vesselName": "CL EPIC",
+    "vesselCode": "CLEP",
+    "formIdentifier": "PB Departure Notice v00.01.03",
+    "reportName": "PB Departure Notice",
+    "version": "v00.01.03",
+    "refId": "590adbd3-f18b-ce2e-a083-3a1da891933f",
+    "clientIds": "PBDepartureNoticePacificBasinForm",
+    "principalId": "11cd3a27-07a4-4cab-bdc2-9c7657efac2e",
+    "isBarge": "false",
+    "clientName": "PacificBasin",
+    "voyagenumber": "100",
+    "port": "PUERTO CORTES",
+    "reporttime": "2025-11-03T12:00:00+00:00",
+    "mainremarks": "test local",
+    "steaminghours": "12.00",
+    "mainenginehrs": "13.00",
+    "mainenginerevs": "14",
+    "averagerpm": "0.01",
+    "fwddraft": "12.00",
+    "aftdraft": "14.00",
+    "dwt": "15.00",
+    "vesselcondition": "Ballast",
+    "mainseastate": "04 MODERATE",
+    "seaheight": "12.00",
+    "swell": "00 NO SWELL",
+    "swellheight": "12.00",
+    "mainwindforce": "00 CALM",
+    "winddirection": "0.0 N North",
+    "freshwaterrob": "12.00",
+    "firstname": "mridhul ",
+    "lastname": "ml",
+    "upcomingPorts": [
+        {
+            "upcomingport": "PUERTO CORTES",
+            "via": "DIRECT",
+            "eta": "2025-11-05T12:00:00+00:00",
+            "distancetogo": "125",
+            "projectedspeed": "2.60"
+        }
+    ],
+    "tankwisebunkerrob": [
+        {
+            "pbtankdescription": "No 1 FOT (P)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "12.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 1 FOT (S)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "12.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 2 FOT (P)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "3.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 2 FOT (S)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 3 FOT (P)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "12.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 3 FOT (S)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "12.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "FO Settl. Tank",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "12.000",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "FO Serv. Tank",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "FO Overflow Tank",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 1 DOT (P)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "No 1 DOT (S)",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        },
+        {
+            "pbtankdescription": "DO Serv. Tank",
+            "fuelType": "undefined",
+            "pbcapacity": "",
+            "pbunit": "MT",
+            "robmt": "",
+            "startTime": null
+        }
+    ],
+    "atseabunkerrobdetails": [
+        {
+            "fuelType": "IFO",
+            "robstart": "12.000",
+            "remaining": "",
+            "viscosity": "",
+            "lcv": "",
+            "propulsion": "",
+            "maneuver": "",
+            "generator": "",
+            "boiler": "",
+            "deballast": "",
+            "incinerator": "",
+            "tankorholdcleaning": "",
+            "others": "",
+            "mainEngineConsumption": "0.000",
+            "auxEngineConsumption": "0.000",
+            "consumption": "0.000",
+            "adjustment": "0.000"
+        },
+        {
+            "fuelType": "LSMGO",
+            "robstart": "",
+            "remaining": "12.000",
+            "viscosity": "",
+            "lcv": "",
+            "propulsion": "",
+            "maneuver": "",
+            "generator": "",
+            "boiler": "",
+            "deballast": "",
+            "incinerator": "",
+            "tankorholdcleaning": "",
+            "others": "",
+            "mainEngineConsumption": "0.000",
+            "auxEngineConsumption": "0.000",
+            "consumption": "0.000",
+            "adjustment": "0.000"
+        },
+        {
+            "fuelType": "LSIFO",
+            "robstart": "",
+            "remaining": "",
+            "viscosity": "12.000",
+            "lcv": "",
+            "propulsion": "",
+            "maneuver": "",
+            "generator": "",
+            "boiler": "",
+            "deballast": "",
+            "incinerator": "",
+            "tankorholdcleaning": "",
+            "others": "",
+            "mainEngineConsumption": "0.000",
+            "auxEngineConsumption": "0.000",
+            "consumption": "0.000",
+            "adjustment": "0.000"
+        }
+    ]
+}

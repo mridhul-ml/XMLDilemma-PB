@@ -1,0 +1,134 @@
+<Form FormIdentifier="Pacific Basin Arrival Notice (PACB)" CompanyCode="PACB" CompanyName="Pacific Basin" VesselCode="KMLO" SubmittedDate="0001-01-01T00:00:00" Status="Submitted" ApprovedDate="" LatestResubmissionDate="0001-01-01T00:00:00" ImoNumber="9811957" UnCode="JPTYO">
+  <VesselName>KM LONDON</VesselName>
+  <VoyageNo>4</VoyageNo>
+  <Port>TOKYO</Port>
+  <ReportTime>2023-08-14T08:00:00+09:00</ReportTime>
+  <Latitude>35 35' 4" N</Latitude>
+  <Longitude>139 46' 5" E</Longitude>
+  <ObservedDistance>6.5</ObservedDistance>
+  <Distance_from_last_port>6.5</Distance_from_last_port>
+  <Remarks>1 2023/08/14 0500LT 1H NOTICE E/R
+2            0610LT START HEAVING UP ANCHOR
+3            0618LT S.B.E
+4            0626LT P.O.B
+5            0630LT ANCHOR AWEIGH
+6            0736LT 1ST LINE ASHORE
+7            0754LT ALL LINES M/F
+8            0755LT D.O.P
+9            0800LT F.W.E</Remarks>
+  <DWT>66385</DWT>
+  <RPM>86</RPM>
+  <VesselCondition>Laden</VesselCondition>
+  <Cargo_Qty_Onboard>21586</Cargo_Qty_Onboard>
+  <FWDDraft>7.6</FWDDraft>
+  <AFTDraft>7.6</AFTDraft>
+  <SteamingHrs>20</SteamingHrs>
+  <SeaState>3</SeaState>
+  <Swell>1</Swell>
+  <WindForce>3</WindForce>
+  <SeaHeight>1</SeaHeight>
+  <SwellHeight>0</SwellHeight>
+  <WindDirection>ENE</WindDirection>
+  <FOROB>
+    <Robs AsOfDate="2023-08-14T08:00:00+09:00">
+      <Rob FuelType="IFO" Remaining="0" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0" />
+      <Rob FuelType="LSIFO" Remaining="485.03" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0" />
+      <Rob FuelType="MGO" Remaining="0" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0" />
+      <Rob FuelType="LSMGO" Remaining="66.76" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0" />
+    </Robs>
+  </FOROB>
+  <FreshWaterROB>306</FreshWaterROB>
+  <__PSId>0</__PSId>
+  <BunkerTanks>
+    <BunkerTanksRow>
+      <BunkerTankNo>1</BunkerTankNo>
+      <BunkerTankDescription>NO.1 F.O. TANK P 85%</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>315.8</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-10-28T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>2</BunkerTankNo>
+      <BunkerTankDescription>NO.1 F.O. TANK S</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>315.8</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-10-28T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>3</BunkerTankNo>
+      <BunkerTankDescription>NO.2 F.O. TANK P</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>315.5</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>225.03</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-12-25T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>4</BunkerTankNo>
+      <BunkerTankDescription>NO.2 F.O. TANK S</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>315.5</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>260</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-12-25T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>5</BunkerTankNo>
+      <BunkerTankDescription>NO.3 F.O. TANK P</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>271</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-10-28T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>6</BunkerTankNo>
+      <BunkerTankDescription>NO.3 F.O. TANK P</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>3</BunkerTankFuelGrade>
+      <BunkerTankCapacity>324</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2022-12-28T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>7</BunkerTankNo>
+      <BunkerTankDescription>NO.1 MGO TANK S 85%</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>10</BunkerTankFuelGrade>
+      <BunkerTankCapacity>97.4</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>66.76</BunkerTankROB>
+      <BunkerTankSupplyDate>2023-08-09T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>8</BunkerTankNo>
+      <BunkerTankDescription>NO.2 MGO TANK S</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>10</BunkerTankFuelGrade>
+      <BunkerTankCapacity>67.9</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2023-04-05T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+    <BunkerTanksRow>
+      <BunkerTankNo>9</BunkerTankNo>
+      <BunkerTankDescription>NO.3 MGO TANK P</BunkerTankDescription>
+      <BunkerTankLocation></BunkerTankLocation>
+      <BunkerTankFuelGrade>10</BunkerTankFuelGrade>
+      <BunkerTankCapacity>195.8</BunkerTankCapacity>
+      <BunkerTankUnit>M3</BunkerTankUnit>
+      <BunkerTankROB>0</BunkerTankROB>
+      <BunkerTankSupplyDate>2023-01-10T12:00:00+00:00</BunkerTankSupplyDate>
+    </BunkerTanksRow>
+  </BunkerTanks>
+</Form>
