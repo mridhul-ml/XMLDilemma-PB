@@ -1,0 +1,15 @@
+<Form FormIdentifier="PB Bunker Survey Adjustment (PACB)" CompanyCode="PACB" CompanyName="Pacific Basin" VesselCode="DIIA" SubmittedDate="0001-01-01T00:00:00" Status="Submitted" ApprovedDate="" LatestResubmissionDate="0001-01-01T00:00:00" ImoNumber="1057177" UnCode="HKHKG">
+	<VesselName>LAKE GRASSMERE</VesselName>
+	<VoyageNo>2</VoyageNo>
+	<Port>HONG KONG</Port>
+	<ReportTime>2025-11-03T13:00:00+08:00</ReportTime>
+	<Remarks>test remarks</Remarks>
+	<FOROB>
+		<Robs AsOfDate="2025-11-03T13:00:00+08:00">
+			<Rob FuelType="IFO" Remaining="0" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0"/>
+			<Rob FuelType="LSMGO" Remaining="316.759" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="-1.013" ConsOverWeatherThreshold="0" />
+			<Rob FuelType="MGO" Remaining="0" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="0.000" ConsOverWeatherThreshold="0"/>
+			<Rob FuelType="LSIFO" Remaining="1128.153" AuxEngineConsumption="0" BoilerEngineConsumption="0" Units="MT" Received="0" Consumption="1.156" ConsOverWeatherThreshold="0" />
+		</Robs>
+	</FOROB>
+</Form>
