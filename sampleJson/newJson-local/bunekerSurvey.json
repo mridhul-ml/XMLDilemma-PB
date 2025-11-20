@@ -1,0 +1,42 @@
+{
+    "imo": "9853022",
+    "vesselName": "CL EPIC",
+    "vesselCode": "CLEP",
+    "formIdentifier": "PB Bunker Survey Adjustment v00.01.04",
+    "reportName": "PB Bunker Survey Adjustment",
+    "version": "v00.01.04",
+    "refId": "1c855ee4-222c-dd65-d5ed-3a1db2a90a04",
+    "clientIds": "PBBunkerSurveyAdjustmentPacificBasinForm",
+    "principalId": "11cd3a27-07a4-4cab-bdc2-9c7657efac2e",
+    "isBarge": "false",
+    "clientName": "PacificBasin",
+    "voyagenumber": "101",
+    "port": "PUERTO CORTES",
+    "reporttime": "2025-11-06T08:00:00+00:00",
+    "mainremarks": "test",
+    "firstname": "Mridhul",
+    "lastname": "local",
+    "fueltypesurveyorqty": [
+        {
+            "fuelType": "IFO",
+            "quantitylifted": "12.000",
+            "bunkeraltqty": "88.000",
+            "opengaugefig": "100.000",
+            "closedgaugefig": "100.000"
+        },
+        {
+            "fuelType": "LSMGO",
+            "quantitylifted": "12.000",
+            "bunkeraltqty": "88.000",
+            "opengaugefig": "100.000",
+            "closedgaugefig": "100.000"
+        },
+        {
+            "fuelType": "LSIFO",
+            "quantitylifted": "12.000",
+            "bunkeraltqty": "88.000",
+            "opengaugefig": "100.000",
+            "closedgaugefig": "100.000"
+        }
+    ]
+}
